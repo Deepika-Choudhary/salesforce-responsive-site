@@ -1,0 +1,39 @@
+.navbar img{
+    width: 10vh;
+}
+
+.navbar{
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-gap: 3rem; */
+    margin: 1rem;
+}
+
+
+.search{
+    padding-left: 7rem;
+}
+
+.profile{
+    margin: 1rem;
+    padding-right: 0rem;
+}
+
+/* .profile > i{
+    display: inline-block;
+} */
+.subNav{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    /* align-items: center; */
+}
+
+.details-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    /* align-items: center; */
+    padding-left: 6rem;
+}

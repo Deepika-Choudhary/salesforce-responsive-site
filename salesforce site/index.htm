@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="responsive.css">
+    <title>Salesforce</title>
+</head>
+
+<body>
+    <!-- navbar  -->
+    <div class="container navbar">
+        <img src="logo.png" alt="logo">
+        <div class="search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" name="search" id="search" placeholder="Search Salesforce">
+        </div>
+        <div class="profile" style="margin-left: 8rem;">
+            <i class="fa fa-plus-circle fa-2x" aria-hidden="true" style="padding-right: 1rem;color:gainsboro"></i>
+            <i class="fa fa-plus-square fa-2x" aria-hidden="true" style="padding-right: 1rem;color:gray"></i>
+            <i class="fa fa-question-circle fa-2x" aria-hidden="true" style="padding-right: 1rem;color:gray"></i>
+            <i class="fa fa-cog fa-2x" aria-hidden="true" style="padding-right: 1rem;color:gray"></i>
+            <i class="fa fa-bell fa-2x" aria-hidden="true" style="padding-right: 1rem;color:gray"></i>
+            <i class="fa fa-user fa-2x" aria-hidden="true" style="padding-right: 1rem;"></i>
+        </div>
+    </div>
+
+    <!-- section 1 -->
+    <div class="container salesLogo">
+        <ul>
+            <li><i class="fa fa-bars" aria-hidden="true"></i></li>
+            <li><b>Sales</b></li>
+            <li>Home</li>
+            <li>Categories</li>
+            <li>Leads</li>
+            <li>Accounts</li>
+            <li>Contacts</li>
+            <li>Opportunities</li>
+            <li>Quotes</li>
+            <li>Forecasts</li>
+            <li>Files</li>
+            <li>Dashboards</li>
+            <li>Reports</li>
+            <li>Quotes</li>
+            <li><i class="fa fa-pencil" aria-hidden="true"></i></li>
+        </ul>
+        <hr style="color: blue">
+        <div class="subNav">
+            <div class="box">
+                <i class="fa fa-trophy fa-2x" aria-hidden="true"></i>
+                <p>Opportunity</p>
+                <b>Project Ladybug - 40K</b>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-user fa-2x" aria-hidden="true" style="padding-left: 3rem"></i>
+                <i class="fa fa-user fa-2x" aria-hidden="true" style="padding-left: 1rem"></i>
+                <i class="fa fa-user fa-2x" aria-hidden="true" style="padding-left: 1rem"></i>
+
+                <a href="#" style="padding-left: 3rem;padding-right: 1rem;">Following</a>
+                <button style="color: blue;background-color: white;border: 1px solid grey;padding: 0.5rem;">Edit</button>
+                <button style="color: blue;background-color: white;border: 1px solid grey;padding: 0.5rem;">New Quote</button>
+                <button style="color: blue;background-color: white;border: 1px solid grey;padding: 0.5rem;">Clone</button>
+            </div>
+        </div>
+        
+        <div class="container table">
+            <table>
+                <tr>
+                    <th style="padding: 1rem;">Account Name</th>
+                    <th style="padding: 1rem;">Amount</th>
+                    <th style="padding: 1rem;">Close Date</th>
+                    <th style="padding: 1rem;">Probability(%)</th>
+                    <th style="padding: 1rem;">Opportunity Owner</th>
+                </tr>
+                <tr>
+                    <td style="padding: 1rem;"><a>Ohana, Inc.</a></td>
+                    <td style="padding: 1rem;">$40,000.00</td>
+                    <td style="padding: 1rem;">8/18/2020</td>
+                    <td style="padding: 1rem;">35%</td>
+                    <td style="padding: 1rem;"><a>Monica Edwards</a></td>
+                </tr>
+            </table>
+            </div>
+        </div>
+
+    <!-- section 2 -->
+    <div class="container progress">
+        <button style="background-color: white;color: blue;border: 2px solid gainsboro; width: 30%;">Show More</button>
+        <progress value="50" max="100" style="width: 80%;height: 3rem;">Navigation</progress>
+        <button style="background-color: rgb(10, 10, 112);width: 50%;color:white;padding: 0.2rem;">Mark Stage as Complete</button>
+    </div>
+
+    <!-- section 3 -->
+    <div class="details-section">
+
+        <div class="container info">
+        <!-- <ul style="list-style-type: none;float:left">
+            <li>Details</li>
+            <li>Contacts</li>
+            <li>Products</li>
+            <li>Quotes</li>
+            <li>Marketing</li>
+            <li>Close Plan</li>
+        </ul> -->
+        <ul style="list-style-type: none;">
+            <li>
+                <details>
+                    <table style="width:100%;">
+                        <tr>
+                            <td>Opportunity Name</td>
+                            <td>Close Date</td>
+                        </tr>
+                        <tr>
+                            <td>Amount</td>
+                            <td>Account Name</td>
+                        </tr>
+                    </table>
+                </details>
+            </li>
+            <li>
+                <details>
+                    Opportunity Information
+                    <table style="width:100%;">
+                        <tr>
+                            <td>data displayed</td>
+                            <td>Forecast Category</td>
+                        </tr>
+                        <tr>
+                            <td>Next Step</td>
+                            <td>Probability(%)</td>
+                        </tr>
+                    </table>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <h4>Marketing Information</h4>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <h4>Quote Information</h4>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <h4>System Information</h4>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <h4>Quote Information</h4>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <h4>System Information</h4>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <h4>Quote Information</h4>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <h4>System Information</h4>
+                </details>
+            </li>
+        </ul>
+    </div>
+    <!-- side section  -->
+    <div class="container side-section">
+        <ul>
+            <li>Activity</li>
+            <li>Chatter</li>
+            <li>Einstein</li>
+        </ul>
+        <hr>
+        <ul class="side-list">
+            <li><a href="#" class="active">Log a Call</a></li>
+            <li><a href="#">Email</a></li>
+            <li><a href="#">NewTask</a></li>
+            <li><a href="#">NewEvent</a></li>
+        </ul>
+        <div style="margin: 1rem;">
+            <input type="text" name="search" id="search" placeholder="Recap your call..">
+            <button style="background-color: blue;color:white;">Add</button>
+        </div>
+        <details>
+            <h4>Upcoming Events</h4>
+        </details>
+        <details>
+            <h4>Calendar</h4>
+        </details>
+    </div>
+    </div>
+</body>
+
+</html>
